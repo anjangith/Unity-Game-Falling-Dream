@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="STAROUTLINE.png" width="275" height="279" pivot_x="0.465455" pivot_y="0.516129"/>
+    </folder>
+    <entity id="0" name="red_star">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="261">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="499">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="753">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="1000">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="STAROUTLINE">
+                <key id="0">
+                    <object folder="0" file="0" x="4.383023" y="-3.700045" angle="3.346064" scale_x="1"/>
+                </key>
+                <key id="1" time="261">
+                    <object folder="0" file="0" x="4.383023" y="-3.700045" angle="123.315" scale_x="1.961926" scale_y="1.850334"/>
+                </key>
+                <key id="2" time="499">
+                    <object folder="0" file="0" x="4.383023" y="-3.700045" angle="244.477873" scale_x="0.917079" scale_y="0.875084"/>
+                </key>
+                <key id="3" time="753">
+                    <object folder="0" file="0" x="4.383023" y="-3.700045" angle="38.550273" scale_x="1.561455" scale_y="1.513896"/>
+                </key>
+                <key id="4" time="1000" spin="-1">
+                    <object folder="0" file="0" x="4.383023" y="-3.700045" angle="179.036732" scale_x="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
